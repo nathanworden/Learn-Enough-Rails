@@ -110,3 +110,13 @@ git checkout -f
 git status
 ```
 
+- You can create copies of a repository where you can make changes without modifying the parent files. This copy is called a branch. In most cases the parent repository is the master branch, and we can create a new topic branch by:
+
+```git
+git checkout -b modify-README
+# Switched to a new branch and named it 'modify-README'
+git branch
+# master
+# *modify-README
+```
+
