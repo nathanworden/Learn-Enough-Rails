@@ -120,3 +120,10 @@ git branch
 # *modify-README
 ```
 
+- Once you make changes you can merge the results back into the master branch:
+
+```git
+git checkout master
+git merge modify-README
+```
+
